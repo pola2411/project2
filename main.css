@@ -70,7 +70,7 @@ height: 100%;
 
 }
 #our_pr .main_pr .main_h1{
-    width: 30%;
+    width: 40%;
     height: auto;
     
     color: rgb(255, 255, 255);
@@ -230,7 +230,7 @@ margin-top: 30px;
 {
   margin:0
 }
-@media (max-width:991px)
+@media (max-width:980px)
 {
   .site-footer [class^=col-]
   {
@@ -319,6 +319,37 @@ margin-top: 30px;
     font-weight:600
   }
 }
+@media(max-width:991px){
+  body{
+    background-color: #26272b;
+    
+    }
+  #about .main_about{
+height: 120vh;
+
+
+  }
+  #our_prodect .prodect{
+    height: auto;
+    background-size: cover;
+    
+
+
+  }
+  #our_prodect .prodect .container .row {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    margin: 2px auto;
+
+
+  }
+
+
+  
+}
 
 
 
@@ -347,6 +378,10 @@ margin-top: 30px;
 
 
 @media(max-width:600px){
+  body{
+    background-color: #26272b;
+    
+    }
 .home{
 background-size: cover;
 background-position: center;
@@ -410,6 +445,11 @@ font-size: 15px;
 }
 #our_prodect .prodect .main_h1 h1{
 padding-top: 10px;
+
+
+}
+#our_prodect .prodect{
+height: auto;
 
 
 }
